@@ -1,0 +1,46 @@
+html, body{
+    
+}
+h1, h2{
+    text-align: center;
+}
+
+.tur2{
+    
+   text-align: center; 
+    list-style-type:none;
+}
+
+.tur3{
+list-style-type:none;
+    
+}
+
+#tur{
+    text-align: center;
+    
+}
+
+#imagem{
+
+width: 500px;
+
+}
+
+@media screen and (min-width:200px) and (max-width: 699px) {
+ 
+    
+    #imagem{
+
+width: 250px;
+
+}
+
+    h1{
+    font-size: 20px;  
+    }
+   
+    h2{
+    font-size: 16px;
+    }
+}

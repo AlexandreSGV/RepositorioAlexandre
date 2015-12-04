@@ -1,0 +1,91 @@
+#barra-brasil div,#barra-brasil a,#barra-brasil ul,#barra-brasil li
+{
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+#barra-brasil ul
+{
+	list-style: none;
+}
+@font-face
+{
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 700;
+	src: local("Open Sans Bold"),local("OpenSans-Bold"),url("//barra.brasil.gov.br/static/opensans-bold.woff") format("woff");
+}
+#barra-brasil
+{
+	background: #f1f1f1;
+	font-family: "Open Sans",Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	height: 32px;
+	line-height: 32px;
+}
+#barra-brasil a
+{
+	text-decoration: none;
+}
+div#wrapper-barra-brasil
+{
+	margin: 0 auto;
+	max-width: 960px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+#barra-brasil .brasil-flag
+{
+	border-right: 2px solid #dfdfdf;
+	float: left;
+	height: 19px;
+	padding: 7px 0 6px;
+	width: 115px;
+}
+#barra-brasil .brasil-flag .link-barra
+{
+	background: url("_imagens/download.png") 8px center no-repeat;
+	display: block;
+	line-height: 19px;
+	padding-left: 42px;
+	text-transform: uppercase;
+	width: 43px;
+}
+#barra-brasil .acesso-info
+{
+	left: 130px;
+	position: absolute;
+}
+#barra-brasil .list
+{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+#barra-brasil .list .first
+{
+	border-left: 2px solid #dfdfdf;
+}
+#barra-brasil .list-item
+{
+	border-right: 2px solid #dfdfdf;
+	display: inline-block;
+	height: 32px;
+	padding: 0 15px 0 13px;
+}
+#barra-brasil .link-barra
+{
+	color: #606060;
+}
+@media screen and (max-width: 668px)
+{
+	#barra-brasil .list
+	{
+		top: -100px;
+	}
+}

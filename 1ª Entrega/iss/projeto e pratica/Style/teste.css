@@ -1,0 +1,243 @@
+html,body{
+    
+background: white;   
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+
+.logo-reitoria {
+     width: 260px;
+
+  background: url("images/logos/logo-reitoria.png");
+  cursor: pointer;
+     padding-left: 24%;
+}
+.branco{
+    
+    
+}
+/*----------------------------content------------------------------*/
+header{
+ 
+  
+
+
+  width: 100%;
+  height: 4.786em;
+  margin: 0 auto;
+  padding: 0.714em 0;
+  background-color: #33A95B;
+  display: block;
+}
+section, aside{
+    float: left;
+    height: 100%;
+      height: auto;
+
+}
+section{
+    background-color: white;
+   width: 650px;
+   margin-left: 3%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 1%;
+    
+  
+}
+aside{
+    background-color: white;
+    width: 25%;
+ 
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+  
+     margin-left: 20%;
+}
+.aside{
+    background-color: white;
+    width: 15%;
+ 
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+  
+     margin-left: 22%;
+}
+footer{
+   
+ 
+
+  float: left;
+
+ 
+
+  width: 92%;
+     
+  height: 20%;
+    background: #EEE;
+
+}
+/*---------------------gov--------------*/
+
+
+
+
+
+
+
+/*------------------conteudo-----------*/
+#servidores {
+    width: 270px;
+    height: 100%;
+    margin-left: 220px;
+    font-size: 15px;
+    float: left;
+   
+}
+#hr {
+    height: 0,1px;
+    background-color: #43cb43;
+    border-style: solid;
+    border-color: #43cb43;
+}
+
+hr {
+        
+
+    height: 0,1px;
+    width: 98%;
+    background-color: #f00;
+    border-style: solid;
+      border-color: #f00;
+   
+}
+.efeit{
+       padding-top: #;
+  font-size: 28px;
+  font-weight: lighter;
+  font-family: serif;
+  color: #2a2a2a;
+   text-indent: 1em;
+       font-family: 'Open Sans Condensed', sans-serif;
+    
+}
+.efeito {
+  padding-top:###;
+    font-size: 28px;
+    font-weight:lighter;
+  font-family: serif;
+     color: #2a2a2a;
+     text-indent: 1em;
+    font-family: 'Open Sans Condensed', sans-serif;
+    
+    
+}
+.teste{
+      
+    padding-left: 50px;
+     text-indent: 2em;
+    padding-right: 50px;
+    text-align: justify;
+    
+    
+}
+
+.teste2{
+      
+    padding-left: 20px;
+     text-indent: 2em;
+    padding-right: 50px;
+    text-align: justify;
+    
+    
+}
+.imagem{ 
+float:left; 
+margin:0 20px 10px 0; 
+    
+    height: 135px;
+    padding-left: 15px;
+    
+} 
+.cargo{
+      
+    padding-left: #;
+     text-indent: 2em;
+    padding-right: 50px;
+   
+
+   
+    
+}
+a{
+    color: #3e3c3c;
+text-decoration: inherit;
+}
+/*--------------tste*/
+
+
+
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  font-size: 1em;
+  line-height: 1.4em;
+ 
+}
+
+
+/*------------ Menu ------------------------------*/
+#menu-wrapper {
+	overflow: hidden;
+	
+	background: #EEE;
+}
+#menu ul {
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+	text-align: center;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu a {
+	display: block;
+	padding: 0px 20px;
+	line-height: 220%;
+	border: none;
+	text-decoration: none;
+	 font-family:sans-serif;
+	text-align: center;
+   
+	text-transform: uppercase;
+	
+	font-size:14px;
+	font-weight: 300;
+	color: #383737;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	background: #acacac;
+	text-decoration: none;
+	color: #000000;
+}
+
+
+/*------------ Menu ------------------------------*/
+
+.footer{
+    padding-left: 23%;
+    padding-right: 
+}

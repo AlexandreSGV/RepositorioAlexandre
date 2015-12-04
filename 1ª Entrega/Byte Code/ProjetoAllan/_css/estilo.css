@@ -1,0 +1,410 @@
+/*FONTS*/
+ul, li, ol{
+	list-style: none;
+	}
+	
+html, body, #content {
+	height: 100%;
+	white-space: normal;
+	}
+	
+body > #content {
+	height: auto; 
+	min-height: 100%;
+	}
+	
+html,body { 
+	margin: 0; 
+	padding: 0; 
+	min-height: 100%; 
+	font-size: 1em; 
+	line-height: 1.4em; 
+	font-family: 'SegoeUI', Arial, Helvetica !important;
+	}
+
+
+p, a, label{
+	color: #333333;
+	font-size: 14px;
+}
+
+/* CLEAR FIX*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	
+	}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%;}
+.clearfix {
+	display: block;
+	background:;
+	}
+/* End hide from IE-mac */
+	
+#barra_governo {
+	background-image: url("images/barra_governo_linha.png")!important; 
+	background-repeat:repeat-x;
+		background-repeat-x: repeat;
+		background-repeat-y: no-repeat;
+	background: #00602E;
+	height: 1.75em;
+	width: 100%; 
+	min-width: 990px;
+	}
+
+#barra_governo {
+	background: #00602E;
+	}
+	
+#barra_governo .logo {
+	font-size:16px !important;
+    background: url("images/barra_governo_logo.png") no-repeat scroll 0 0 transparent;
+    display: block;
+	height: 1.714em; 
+	margin-top: 0.280em;
+	width: 6.8em;
+	}
+
+#barra_governo .ai { 
+	font-size:16px !important;
+    background: url("images/barra_governo_ai.png") no-repeat scroll 0 0 transparent;
+    display: block;
+	height: 1.714em;
+	margin-top: 0.280em;
+	width: 10em;
+	}
+
+#barra_governo li {
+	float: right;
+	margin-right: 0.214em;
+	} 
+
+.w990{
+	width: 61.8em;
+	margin: 0 auto;
+	}
+
+	
+#hearder{
+	min-width: 990px;
+	width: 100%; 
+	height:4.786em; 
+	margin: 0 auto; 
+	padding: 0.714em 0; 
+	background-color: #33A95B;
+	display: block;
+	
+}
+
+.acesso-reitoria{
+	display: block; 
+	width: 100%; 
+	height: 100%;
+	}
+	
+#logo{
+	width: 23.429em;
+	height: 4.786em; 
+	float: left; 
+	background: url("_imagens/logo.png") no-repeat scroll 0 0 transparent;
+    background-color: red;
+	}
+
+#logo-reitoria{
+	width: 350px;
+	height: 80px; 
+	float: left; 
+	background-color: red;
+	background: url("_imagens/logo.png") no-repeat 50px;
+	}
+
+#container {
+	margin-top: 7%;
+	margin-bottom: 7%;
+	margin-left: 30%;
+	margin-right: 30%;
+	background: white;
+	text-align: justify;
+   
+}
+
+#container h2{
+	padding-top: 8;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#658404;
+	text-align:center;
+}
+.top20{
+	margin-top:20px
+	}
+
+element.style {	
+	float: left;
+	}
+	
+#social {
+	float: left;
+	width: 100%;
+	text-align: right;
+	margin-top: 20px;
+	border-top: 1px solid #ccc;
+	padding: 10px 0;
+	}
+	
+.assinatura {
+	float:left;
+}
+
+
+.back-gray{
+	background: #EEE;
+}
+
+th,td{
+    width:50%;
+    text-align:left;
+    border: 1px solid;
+    
+}
+{
+	border: 0;
+}
+#barra-brasil div,#barra-brasil a,#barra-brasil ul,#barra-brasil li
+{
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+#barra-brasil ul
+{
+	list-style: none;
+}
+@font-face
+{
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 700;
+	src: local("Open Sans Bold"),local("OpenSans-Bold"),url("//barra.brasil.gov.br/static/opensans-bold.woff") format("woff");
+}
+#barra-brasil
+{
+	background: #f1f1f1;
+	font-family: "Open Sans",Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	height: 32px;
+	line-height: 32px;
+}
+#barra-brasil a
+{
+	text-decoration: none;
+}
+div#wrapper-barra-brasil
+{
+	margin: 0 auto;
+	max-width: 960px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+#barra-brasil .brasil-flag
+{
+	border-right: 2px solid #dfdfdf;
+	float: left;
+	height: 19px;
+	padding: 7px 0 6px;
+	width: 115px;
+	background: url("_imagens/download.png") 10px center no-repeat;
+}
+#barra-brasil .brasil-flag .link-barra
+{
+	
+	display: block;
+	line-height: 19px;
+	padding-left: 42px;
+	text-transform: uppercase;
+	width: 43px;
+}
+#barra-brasil .acesso-info
+{
+	left: 130px;
+	position: absolute;
+}
+#barra-brasil .list
+{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+#barra-brasil .list .first
+{
+	border-left: 2px solid #dfdfdf;
+}
+#barra-brasil .list-item
+{
+	display: inline-block;
+padding: 0px 15px 0px 13px;
+height: 32px;
+border-right: 2px solid #DFDFDF;
+font-size: 100%;
+
+}
+#barra-brasil .link-barra
+{
+	color: #606060;
+}
+@media screen and (max-width: 668px)
+{
+	#barra-brasil .list
+	{
+		top: -100px;
+	}
+}
+h1{
+font-size: 26x;
+margin-left: 10px;
+font-family: Segoe UI;
+font-weight: lighter;
+
+
+}
+p{
+margin-right: 50px;
+}
+.img{
+	float: right;
+	margin-top: 7%;
+	margin-bottom: 7%;
+	margin-left: 22%;
+	margin-right: 25%;
+}
+.salas{
+	margin-left: 22%;
+	margin-right: 25%;
+}
+aside{
+    float: left;
+    width: 273px;
+    margin-top: 100px;
+    margin-left: 10%;
+
+       }
+
+.menuLatareal li{
+
+	max-width: 690px !important;
+    margin-bottom: 190px;
+    margin-left: 22px;
+    margin: 10px;
+
+ 
+}
+
+a{
+	text-decoration: none;
+}
+.conteudo{
+	width: 720px;
+	float: right;
+	margin-top: 100px;
+	margin-right: 10%;
+}
+
+}
+hr{
+	height: 2px;
+    background: #F00 none repeat scroll 0% 0%;
+    border:0;
+}
+b{
+	font-size: 11px;
+	font-family: 
+}
+footer{
+	background: #EEE none repeat scroll 0% 0%;
+	height: 185px; 
+	padding: 10px 0 0 !important;
+	clear: both;
+	/**margin: -3.929em auto 0; **/
+	position: relative;
+	width: 100%;
+
+}
+.banner,.fo2,.assinatura{
+margin-left: 11%;
+padding: 5px;
+}
+.assinatura{
+	border-top: 1px solid #CCC;
+    padding: 10px 0px;
+    width: 80%;
+}
+.w990{
+
+}
+.t1{
+	border-bottom: 2px solid #F00;
+padding-bottom: 15px;
+margin-left: 0;
+font-size: 26x;
+
+}
+.t2{
+border-bottom: 2px solid #51C951;
+padding-bottom: 15px;
+font-size: 26x;
+
+}
+.t4{
+padding-bottom: 19px;
+border-bottom: 2px solid #F00;
+padding-bottom: 19px;
+font-size: 24px;
+margin-left: 0;
+}
+.t5{
+border-bottom: 2px solid #C98951;
+padding-bottom: 15px;
+margin-left: 0;
+font-size: 26x;
+
+}
+a:hover {
+    text-decoration: none;
+    color: gray;
+      
+}
+aside{
+	margin-bottom:30%;
+}
+.t3{
+	border-bottom: 2px solid #F00;
+	padding-bottom: 18px;
+	margin-left: 0;
+	font-size: 24px;
+}
+
+.texto{
+	text-align: left;
+	width:300px;
+	float: right;
+	margin: 0px;
+	padding: 0px;
+
+}
+.endereco{
+	font-size: 15px;
+}
+.maps{
+	margin-top:40px;
+
+
+}

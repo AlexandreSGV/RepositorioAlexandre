@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+    
+<title>IFPE</title>
+<link rel="shortcut icon" href="imagens/favicon.icon" >
+<link rel="icon" href="imagens/favicon.ico" type="image/x-icon" />   
+    
+<link href="css/estiloTempleite.css" rel="stylesheet" type="text/css">    
+
+<script src="js/jquery.1.7.1.min.js"></script>
+<script>
+	$(function() {
+		var pull 		= $('#pull');
+				menu 		= $('nav ul');
+
+		$(pull).on('click', function(e) {
+			e.preventDefault();
+			menu.slideToggle();
+		});
+		
+		$(window).resize(function(){
+			var w = $(this).width();
+
+			if(w > 800 && menu.is(':hidden')) {
+				menu.removeAttr('style');
+			}
+		});
+
+		$('li').on('click', function(e) {				
+			var w = $(window).width();
+			if(w < 800 ) {
+				menu.slideToggle();
+			}
+		});
+
+		$('.panel').height($(window).height());
+		
+	});
+</script>
+    
+    
+    
+</head>
+<body>
+    <nav class="clearfix">   
+    <ul class="clearfix"> 
+        <li><a id="Brasiltext" href="http://brasil.gov.br/barra#acesso-informacao">Acesso à informação</a></li>
+        <li><a id="Brasiltext" href="http://brasil.gov.br/barra#participe">Participe</a></li>
+        <li><a id="Brasiltext" href="http://www.servicos.gov.br/">Serviços</a></li> 
+        <li><a id="Brasiltext" href="http://www.planalto.gov.br/legislacao">Legislação</a></li> 
+        <li><a id="Brasiltext" href="http://brasil.gov.br/barra#orgaos-atuacao-canais">Canais</a></li> 
+    </ul>  
+     <div id="pull">
+    <div class="link-barra1">     
+    <a href="http://brasil.gov.br" id="textBR">Brasil</a> 
+     </div>   
+    <a href="#" id="pull"></a> 
+     </div>         
+</nav>
+    
+	<div id="barra-brasil">
+		<div id="wrapper-barra-brasil">
+			<div class="brasil-flag">
+				<a href="http://brasil.gov.br" class="link-barra">Brasil</a>
+			</div>
+			<span class="acesso-info">
+				<a href="http://brasil.gov.br/barra#acesso-informacao" class="link-barra">Acesso à informação</a>
+			</span>
+			<ul class="list">
+				<li class="list-item first">
+					<a href="http://brasil.gov.br/barra#participe" class="link-barra">Participe</a>
+				</li>
+				<li class="list-item">
+					<a href="http://www.servicos.gov.br/" class="link-barra">Serviços</a>
+				</li>
+				<li class="list-item">
+					<a href="http://www.planalto.gov.br/legislacao" class="link-barra">Legislação</a>
+				</li>
+				<li class="list-item last last-item">
+					<a href="http://brasil.gov.br/barra#orgaos-atuacao-canais" class="link-barra">Canais</a>
+				</li>
+			</ul>
+		</div>
+	</div>    
+   
+    <div class="logo-reitoria1">
+    <div id="logo-reitoria">    
+    <img  src="imagens/logo-reitoria.png"/>
+    </div>    
+    </div>
+    
+    
+    <div class="menu">
+        
+        <div class="confMen"> 
+        
+        <ul class="confMenu">
+        
+        <li class="men">
+            <a class="me" href="#">Home</a>
+        </li>
+        <li class="men">
+            <a class="me" href="Dire%C3%A7%C3%A3o.html">Direção</a>
+        </li>
+        <li class="men">
+            <a class="me" href="Turmas.html">Turmas</a>
+        </li>
+        
+        </ul>
+    
+    </div>    
+    
+    </div>
+    
+    
+    <div class="conteudo">
+        
+    <div id="cont6">
+    
+    <h3>Gestão de TI</h3>
+        
+         <div id="cont2">
+    
+		<p>À Coordenação de Gestão de Tecnologias da Informação trabalha em disseminar o uso dos recursos de tecnologia da informação no Campus, apoiar os usuários na utilização de recursos de informática, orientar a equipe e acompanhar o andamento dos sistemas implantados, administrar o banco de dados corporativo, gerenciar a intranet, desenvolver softwares para atender as demandas institucionais, fazer cumprir em nível de Campus a política de tecnologias da informação do IFPE, gerenciar os e-mails institucionais, gerenciar o site institucional, gerenciar o sistema de telefonia do Campus, em parceria com a Coordenação de Manutenção e Serviços Gerais, administrar o parque de equipamentos de informática do Campus, em consonância com as orientações advindas da Diretoria de Avaliação e Desenvolvimento de Tecnologias do IFPE- DADT.</p>
+
+<p>Da Coordenadoria dos Laboratórios de Informática</p>
+			
+<p>A Coordenadoria dos Laboratórios de Informática, ligada à Coordenação de Gestão de Tecnologias da Informação, é o órgão que gerencia, coordena e mantém os equipamentos e a infraestrutura dos laboratórios de informática do Campus.</p>
+
+<p>Coordenadoria dos Laboratórios de Informática compete:</p>
+
+<p>1.  zelar pela manutenção dos equipamentos e infraestrutura dos laboratórios de informática do Campus;</p>
+			
+<p>2.  instalar, desinstalar e conservar os softwares e hardwares necessários ao desenvolvimento acadêmico e administrativo da instituição;</p>
+<p>3.  atender às demandas e atribuições oriundas da Coordenação de Gestão de Tecnologias da Informação do Campus, ou da Direção Geral.</p>
+   
+<p>EQUIPE</p>
+
+<p>Anderson França Ferreira</p>	
+
+<p>Contato:<strong> Anderson.ferreira@igarassu.ifpe.edu.br</strong></p>
+
+		
+           
+    </div>  
+        
+    </div>
+    
+    </div>
+    
+<footer class="back-gray">
+ <div id="dicP">
+        
+    <div class="imgsup">
+     <a target="_blank" href="http://www3.transparencia.gov.br/"><img src="imagens/transparencia.png"></a> 
+     <a target="_blank" href="http://portal.ifpe.edu.br/campus/ensino.jsf?page=Bibliotecas%20Virtuais&campi=Reitoria"><img id="configimg" src="imagens/banner-bibliotecas-virtuais.jpg"></a>
+     <a target="_blank" href="http://www.cienciasemfronteiras.gov.br/web/csf"><img src="imagens/ciencia.jpg"></a>
+     <a target="_blank" href="https://qacademico.ifpe.edu.br/"><img src="imagens/sistema_academico.png"></a> 
+     <a target="_blank" href="https://suap.ifpe.edu.br/accounts/login/?next=/"><img src="imagens/suap.png"></a>
+     <a target="_blank" href="http://200.133.17.83/ouvidoria.php"><img src="imagens/ouvidoria.png"></a> 
+     <a target="_blank" href="http://mail.google.com/a/reitoria.ifpe.edu.br"><img src="imagens/webmail.jpg"></a>
+     <a target="_blank" href="http://reitoria.ifpe.edu.br/campus/relacionamentosociedade.jsf?page=Comiss%25C3%25A3o%2520Pr%25C3%25B3pria%2520de%2520Avalia%25C3%25A7%25C3%25A3o&campi=Reitoria"><img src="imagens/banner-CPA.png"></a>     
+        </div>
+        
+    <div id="w"> </div>
+        
+    <div class="social1">
+     <a target="_blank" href="http://jigsaw.w3.org/css-validator/check/referer"><img src="imagens/vcss-blue.gif" class="imgconfig1"></a> 
+     <a target="_blank" href="http://validator.w3.org/check?uri=http%3A%2F%2Fportal.ifpe.edu.br%2Fcampus%2Freitoria%2Findex.jsf;accept=text%2Fhtml%2Capplication%2Fxhtml%2Bxml%2Capplication%2Fxml%3Bq%3D0.9%2Cimage%2Fwebp%2C%2A%2F%2A%3Bq%3D0.8;accept-language=pt-BR%2Cpt%3Bq%3D0.8%2Cen-US%3Bq%3D0.6%2Cen%3Bq%3D0.4"><img src="imagens/valid-xhtml10.png" class="imgconfig1"></a>
+     <a target="_blank" href="http://www.acessobrasil.org.br/dasilva/aval.do"><img src="imagens/selo_acessobr.gif" class="imgconfig"></a>
+  </div>
+    
+    <div class="social">  
+     <a target="_blank" href="https://plus.google.com/u/0/108074557634978256886/posts"><img src="imagens/google+.png"></a> 
+     <a target="_blank" href="https://www.youtube.com/user/aevifpe"><img src="imagens/youtube.png"></a>
+     <a target="_blank" href="https://twitter.com/IFPE?lang=pt"><img src="imagens/twitter.png"></a>  
+     <a target="_blank" href="https://www.facebook.com/pages/IFPE-Instituto-Federal-de-Educa%C3%A7%C3%A3o-Tecnol%C3%B3gica/184157071634611"><img src="imagens/facebook.png"></a>   
+    </div>
+        
+    <div class="direitoautores">
+        
+         <hr class="dir">
+        
+        © 2015
+      </div>
+      
+    </div>  
+</footer>
+
+
+</body>
+</html>
